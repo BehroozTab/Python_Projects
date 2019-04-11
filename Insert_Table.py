@@ -28,4 +28,4 @@ mcursor.execute(sql)
 mresult = mcursor.fetchall()
 
 for x in mresult:
-  print(x)
+  print("department ID: ",x[0] , "\t\tdepartment Name: ", x[1] , "\t\tdepartment Location: ", x[2])
